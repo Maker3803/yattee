@@ -34,7 +34,11 @@
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
 	</dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Yattee a besoin d'accéder au reseau local pour se connecter au serveur Invidious.</string>
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_yattee._tcp</string>
